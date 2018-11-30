@@ -1,0 +1,53 @@
+h1 {
+    color: red;
+}
+
+/*
+Untuk penjelasan struktur dasar CSS
+
+selector {
+    property: value;
+} */
+
+#subjudul1 {
+    color: green;
+}
+
+#subjudul2 {
+    color: pink;
+}
+
+.judul-orange {
+    color: orange;
+}
+
+body {
+    /* background-color: #36d479; ini dihapus kodenya */
+    
+    /* Cara membuat background gambar */
+    background-image: url('gambar/penjelasan.png');
+    /* Cara membuat background tidak berulang kali */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#paragraf1 {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#paragraf2 {
+    text-decoration: underline;
+    font-style: italic;
+    text-transform: lowercase;
+}
+
+.link {
+    color: #5cff2a;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #1cfdd5;
+}
