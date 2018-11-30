@@ -43,6 +43,11 @@ body {
     text-transform: lowercase;
 }
 
+#paragraf3 {
+    font-family: Arial;
+    font-size: 24px;
+}
+
 .link {
     color: #5cff2a;
     text-decoration: none;
